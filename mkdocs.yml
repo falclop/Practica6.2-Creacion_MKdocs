@@ -1,0 +1,10 @@
+site_name: IAW-Fabian
+
+nav:
+    - Principal: index.md
+    - Acerca de: about.md
+
+theme:
+  name: material
+  palette:
+    primary: teal
