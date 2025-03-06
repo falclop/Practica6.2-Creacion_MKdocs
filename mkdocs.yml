@@ -1,8 +1,32 @@
-site_name: IAW-Fabian
+site_name: "Repositorio de Prácticas"
+repo_url: "https://github.com/falclop"
+theme:
+  name: "material"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - search.suggest
+    - search.highlight
 
 nav:
-    - Principal: index.md
-    - Acerca de: about.md
+  - Inicio: index.md
+  - Prácticas:
+      - "Practica 8.1 - Hosting Compartido PLESK": https://github.com/falclop/Practica8.1-Hosting_compartido_PLESK
+      - "Practica 5.4 - Dockerizar Imagen": https://github.com/falclop/Practica5.4-IAW-Dockerizar-imagen
+      - "Practica 5.2 - WordPress Dockerizado": https://github.com/falclop/Practica5.2-IAW-WordPress-Dockerizado
+      - "Practica 4.5 - Terraform": https://github.com/falclop/Practica4.5-Terraform
+      - "Practica 3.2 - IaaC con Ansible": https://github.com/falclop/Practica3.2-IAW-IaaC-Ansible
+      - "Practica 1.11 - Infraestructura 3 niveles con Bash": https://github.com/falclop/Practica1.11-IAW-Infraestructura-3-niveles-bash
+      - "Practica 1.7 - WordPress con WP-CLI": https://github.com/falclop/Practica1.7-IAW-WordPress-WP-CLI
+  - Acerca de: about.md
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.emoji
 
 theme:
   name: material
