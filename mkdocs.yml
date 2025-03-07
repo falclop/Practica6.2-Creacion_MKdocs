@@ -1,38 +1,46 @@
-site_name: "Repositorio de Prácticas de Falclop"
-repo_url: "https://github.com/falclop"
+# Configuración del sitio
+site_name: "Repositorio de Prácticas de Falclop"  # Nombre del sitio web
+repo_url: "https://github.com/falclop"  # URL del repositorio en GitHub
+
+# Configuración del tema
 theme:
-  name: "material"
+  name: "material"  # Tema utilizado (Material para MkDocs)
   palette:
-    primary: teal
+    primary: teal  # Color principal del tema
   font:
-    text: Open Sans
-  language: es
+    text: Open Sans  # Fuente del texto principal
+  language: es  # Idioma del sitio
   
   features:
-    # Carga instantánea
+    # Carga instantánea de las páginas
     - navigation.instant
-    # Ancla de navegación para contenido
+    # Ancla de navegación para seguir la sección activa
     - navigation.tracking
-    # Menus extendibles
+    # Menús expandibles en la navegación
     - navigation.expand
-    # Barra de búsqueda
+    # Funciones de búsqueda mejoradas
     - search.suggest
     - search.highlight
-    # Cabecera se esconde al scrollear
+    # Oculta la cabecera al hacer scroll
     - header.autohide
+    # Agrega un pie de página con navegación
     - navigation.footer
 
+# Extra (Configuración adicional fuera del tema)
 extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/falclop
-      - icon: fontawesome/brands/linkedin
-        link: https://www.linkedin.com/in/fabianalcaidelopez1991/
+  social:
+    # Icono de GitHub con enlace al perfil
+    - icon: fontawesome/brands/github
+      link: https://github.com/falclop
+    # Icono de LinkedIn con enlace al perfil
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/fabianalcaidelopez1991/
 
-
+# Configuración de la barra de navegación
 nav:
-  - Inicio: index.md
+  - Inicio: index.md  # Página de inicio
   - Prácticas:
+      # Listado de prácticas con enlaces a sus respectivas páginas Markdown
       - "Practica 1.7 - WordPress con WP-CLI": p17.md
       - "Practica 1.11 - Infraestructura 3 niveles con Bash": p111.md
       - "Practica 3.2 - IaaC con Ansible": p32.md
@@ -41,10 +49,11 @@ nav:
       - "Practica 5.4 - Dockerizar Imagen": p54.md
       - "Practica 8.1 - Hosting Compartido PLESK": p8.md
 
+# Extensiones para mejorar Markdown
 markdown_extensions:
   - toc:
-      permalink: "#"
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.emoji
+      permalink: "#"  # Agrega enlaces ancla en los títulos
+  - pymdownx.highlight  # Resaltado de código
+  - pymdownx.inlinehilite  # Resaltado en línea de código
+  - pymdownx.superfences  # Soporte mejorado para bloques de código
+  - pymdownx.emoji  # Soporte para emojis
