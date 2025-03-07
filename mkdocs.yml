@@ -1,15 +1,32 @@
-site_name: "Repositorio de Prácticas"
+site_name: "Repositorio de Prácticas de Falclop"
 repo_url: "https://github.com/falclop"
 theme:
   name: "material"
   palette:
     primary: teal
+  font:
+    text: Open Sans
+  language: es
+
   features:
+    # Carga instantánea
     - navigation.instant
+    # Ancla de navegación para contenido
     - navigation.tracking
+    # Menus extendibles
     - navigation.expand
+    # Barra de búsqueda
     - search.suggest
     - search.highlight
+    # Cabecera se esconde al scrollear
+    - header.autohide
+    - navigation.footer
+  
+  extra:
+    - icon: fontawesome/brands/github
+      link: https://github.com/falclop
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/fabianalcaidelopez1991/
 
 nav:
   - Inicio: index.md
@@ -21,7 +38,7 @@ nav:
       - "Practica 5.2 - WordPress Dockerizado": p52.md
       - "Practica 5.4 - Dockerizar Imagen": p54.md
       - "Practica 8.1 - Hosting Compartido PLESK": p8.md
-  - Acerca de: about.md
+
 markdown_extensions:
   - toc:
       permalink: "#"
