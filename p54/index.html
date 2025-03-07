@@ -9,23 +9,25 @@
       
       
       
+        <link rel="prev" href="../p52/">
       
-        <link rel="next" href="p17/">
+      
+        <link rel="next" href="../p8/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.7">
     
     
       
-        <title>Repositorio de Prácticas</title>
+        <title>Practica 5.4 - Dockerizar Imagen - Repositorio de Prácticas</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bienvenido-al-repositorio-de-practicas-iac-de-fabian-alcaide" class="md-skip">
+        <a href="#practica54-iaw-dockerizar-imagen" class="md-skip">
           Skip to content
         </a>
       
@@ -84,7 +86,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Repositorio de Prácticas" class="md-header__button md-logo" aria-label="Repositorio de Prácticas" data-md-component="logo">
+    <a href=".." title="Repositorio de Prácticas" class="md-header__button md-logo" aria-label="Repositorio de Prácticas" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -104,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Inicio
+              Practica 5.4 - Dockerizar Imagen
             
           </span>
         </div>
@@ -193,7 +195,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Repositorio de Prácticas" class="md-nav__button md-logo" aria-label="Repositorio de Prácticas" data-md-component="logo">
+    <a href=".." title="Repositorio de Prácticas" class="md-nav__button md-logo" aria-label="Repositorio de Prácticas" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -220,6 +222,175 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Prácticas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Prácticas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Practica 1.7 - WordPress con WP-CLI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p111/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Practica 1.11 - Infraestructura 3 niveles con Bash
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p32/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Practica 3.2 - IaaC con Ansible
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p45/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Practica 4.5 - Terraform
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p52/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Practica 5.2 - WordPress Dockerizado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -236,7 +407,7 @@
           
   
   <span class="md-ellipsis">
-    Inicio
+    Practica 5.4 - Dockerizar Imagen
     
   </span>
   
@@ -244,11 +415,11 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Inicio
+    Practica 5.4 - Dockerizar Imagen
     
   </span>
   
@@ -271,18 +442,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#contenido" class="md-nav__link">
+  <a href="#explicacion-de-la-practica" class="md-nav__link">
     <span class="md-ellipsis">
-      Contenido
+      Explicación de la práctica
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-utilizar-este-sitio" class="md-nav__link">
+  <a href="#desarrollo-de-la-aplicacion" class="md-nav__link">
     <span class="md-ellipsis">
-      ¿Cómo utilizar este sitio?
+      Desarrollo de la aplicación
     </span>
   </a>
   
@@ -295,65 +466,6 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Prácticas
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Prácticas
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p17/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Practica 1.7 - WordPress con WP-CLI
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -363,117 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="p111/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Practica 1.11 - Infraestructura 3 niveles con Bash
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p32/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Practica 3.2 - IaaC con Ansible
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p45/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Practica 4.5 - Terraform
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p52/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Practica 5.2 - WordPress Dockerizado
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p54/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Practica 5.4 - Dockerizar Imagen
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p8/" class="md-nav__link">
+      <a href="../p8/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -502,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -543,18 +545,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#contenido" class="md-nav__link">
+  <a href="#explicacion-de-la-practica" class="md-nav__link">
     <span class="md-ellipsis">
-      Contenido
+      Explicación de la práctica
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-utilizar-este-sitio" class="md-nav__link">
+  <a href="#desarrollo-de-la-aplicacion" class="md-nav__link">
     <span class="md-ellipsis">
-      ¿Cómo utilizar este sitio?
+      Desarrollo de la aplicación
     </span>
   </a>
   
@@ -579,23 +581,164 @@
   
 
 
-<h1 id="bienvenido-al-repositorio-de-practicas-iac-de-fabian-alcaide">Bienvenido al Repositorio de Prácticas IaC de Fabián Alcaide<a class="headerlink" href="#bienvenido-al-repositorio-de-practicas-iac-de-fabian-alcaide" title="Permanent link">#</a></h1>
-<p>Este sitio contiene un conjunto de prácticas relacionadas con Infraestructura como Código (IaC), automatización, contenedores y administración de servidores para la asignatura de IAW.  </p>
-<p>Además esta página ha sido realizada con GitPages</p>
-<h2 id="contenido">Contenido<a class="headerlink" href="#contenido" title="Permanent link">#</a></h2>
-<p>Aquí encontrarás enlaces directos a los repositorios de las prácticas disponibles:</p>
-<ul>
-<li><a href="https://github.com/falclop/Practica1.7-IAW-WordPress-WP-CLI">Practica 1.7 - WordPress con WP-CLI</a></li>
-<li><a href="https://github.com/falclop/Practica1.11-IAW-Infraestructura-3-niveles-bash">Practica 1.11 - Infraestructura 3 niveles con Bash</a></li>
-<li><a href="https://github.com/falclop/Practica3.2-IAW-IaaC-Ansible">Practica 3.2 - IaaC con Ansible</a></li>
-<li><a href="https://github.com/falclop/Practica4.5-Terraform">Practica 4.5 - Terraform</a></li>
-<li><a href="https://github.com/falclop/Practica5.2-IAW-WordPress-Dockerizado">Practica 5.2 - WordPress Dockerizado</a></li>
-<li><a href="https://github.com/falclop/Practica5.4-IAW-Dockerizar-imagen">Practica 5.4 - Dockerizar Imagen</a></li>
-<li><a href="https://github.com/falclop/Practica8.1-Hosting_compartido_PLESK">Practica 8.1 - Hosting Compartido PLESK</a></li>
+<h1 id="practica54-iaw-dockerizar-imagen">Practica5.4-IAW-Dockerizar-imagen<a class="headerlink" href="#practica54-iaw-dockerizar-imagen" title="Permanent link">#</a></h1>
+<p>Creación de imagen dockerizada de un servicio y subirlo a DockerHub.</p>
+<h2 id="explicacion-de-la-practica">Explicación de la práctica<a class="headerlink" href="#explicacion-de-la-practica" title="Permanent link">#</a></h2>
+<p>En esta práctica vamos a implementar la creación de un docker con un web estática, el juego del 2048, usando la tecnología docker compose.<br />
+Los pasos a seguir serán los siguientes:<br />
+- Crear un <strong>Dockerfile</strong>.<br />
+- Crear una imagen de docker con <strong>Docker Buildx</strong>.<br />
+- Crear el <strong>docker-compose.yml</strong> para despliegue de imagen.
+- Despliegue de aplicación y comprobación.
+- Subir imagen a <strong>docker hub</strong>, podemos verla <a href="https://hub.docker.com/r/falclop/2048-fabian">aquí</a>.
+- Creación de <strong>GitHub Actions</strong> para implementar CI/CD.</p>
+<h2 id="desarrollo-de-la-aplicacion">Desarrollo de la aplicación<a class="headerlink" href="#desarrollo-de-la-aplicacion" title="Permanent link">#</a></h2>
+<ol>
+<li>Dockerfile<br />
+Un Dockerfile es un archivo que contiene las instrucciones para la creación de una imagen de docker. Esta se compone de varias partes, que pueden ser reutilizables y hacen que se comporte de diferentes formas:  </li>
+<li>El <strong>FROM</strong> hace referencia a la imagen desde la que comienza, en este caso un ubuntu 24.04.
+<div class="highlight"><pre><span></span><code>FROM ubuntu:24.04
+</code></pre></div></li>
+<li>Las <strong>LABEL</strong> introducen metadatos para trazabilidad y seguimiento del proyecto.
+<div class="highlight"><pre><span></span><code>LABEL AUTHOR=&quot;Fabián Alcaide&quot;
+LABEL DESCRIPTION=&quot;Imagen de web 2028&quot;
+</code></pre></div></li>
+<li>El <strong>RUN</strong> es de lo más importante del Dockerfile, pues contiene los comandos que se ejecutarán al inicio del contenedor, en este caso:<ul>
+<li>Instalación de nginx.</li>
+<li>Instalación de git.</li>
+<li>Borrado de dependencias.</li>
+<li>Clonado de repositorio necesario.</li>
+<li>Copia de archivos a directorio virtual.
+<div class="highlight"><pre><span></span><code>RUN apt update &amp;&amp; \
+    apt install nginx -y &amp;&amp; \
+    apt install git -y &amp;&amp; \
+    rm -rf /var/lib/apt/lists/*
+
+RUN git clone https://github.com/josejuansanchez/2048 /app &amp;&amp; \
+    mv /app/* /var/www/html
+</code></pre></div></li>
 </ul>
-<h2 id="como-utilizar-este-sitio">¿Cómo utilizar este sitio?<a class="headerlink" href="#como-utilizar-este-sitio" title="Permanent link">#</a></h2>
-<p>Navega a través del menú de la izquierda para acceder a cada una de las prácticas. Puedes hacer clic en los enlaces anteriores para dirigirte directamente a los repositorios en GitHub.</p>
-<p>Este sitio se actualiza automáticamente con nuevas prácticas y mejoras. ¡Explora y aprende!</p>
+</li>
+<li><strong>EXPOSE</strong> abre los puertos designados (recordemos que hay que abrir los puertos en la máquina anfitrión).
+<div class="highlight"><pre><span></span><code>EXPOSE 80
+</code></pre></div></li>
+<li><strong>CMD</strong> permite ejecutar comandos como si fuese la consola.
+<div class="highlight"><pre><span></span><code>CMD [ &quot;nginx&quot;, &quot;-g&quot;, &quot;daemon off;&quot; ]
+</code></pre></div></li>
+<li>Una vez tenemos el <strong>Dockerfile</strong> listo, usamos el comando:
+<div class="highlight"><pre><span></span><code>docker build -t falclop/2048-fabian:1.0 .
+</code></pre></div>
+Este comando permite poner nombre (tag), versión y localización del <strong>dockerfile</strong>. Le ponemos nuestro nombre a la imagen para poder subirlo como imagen en <strong>DockerHub</strong> como no oficial.</li>
+</ol>
+<p><img alt="" src="../images/p54/1.png" />  </p>
+<p>Una vez lanzamos el script, vemos nuestra imagen con <strong>Docker images</strong>  </p>
+<p><img alt="" src="../images/p54/2.png" />  </p>
+<ol>
+<li>Una vez tenemos las imagen, preparamos el <strong>docker-compose.yml</strong><br />
+<div class="highlight"><pre><span></span><code>services:
+  2048-fabian:
+    image: falclop/2048-fabian:1.0
+    ports: 
+      - 8081:80
+</code></pre></div>
+Lo lanzamos con:
+<div class="highlight"><pre><span></span><code>docker compose up -d
+</code></pre></div></li>
+</ol>
+<p><img alt="" src="../images/p54/3.png" />  </p>
+<p>Y como hemos hecho un port-forwarding al <strong>8081:80</strong> entramos a la ip o al nombre del dominio y veremos la aplicación.  </p>
+<p><img alt="" src="../images/p54/4.png" />  </p>
+<ol>
+<li>Cuando tenemos listo la imagen, la instalación es correcta y funciona todo, podemos subir la imagen a nuestra cuenta de <strong>DockerHub</strong>, para ello primero haremos:
+<div class="highlight"><pre><span></span><code>docker login
+</code></pre></div></li>
+</ol>
+<p><img alt="" src="../images/p54/5.png" />  </p>
+<p>Con esto podemos loguearnos en dockerhub para subirlo y poder hacer un <strong>push</strong>.</p>
+<div class="highlight"><pre><span></span><code>docker push falclop/2048-fabian:1
+</code></pre></div>
+<p>Con esto subimos la imagen a <strong>dockerhub</strong>  </p>
+<p><img alt="" src="../images/p54/6.png" />  </p>
+<p><img alt="" src="../images/p54/7.png" />  </p>
+<ol>
+<li>Finalmente, vamos a crear un disparador en GitHub Actions para poder crear una automatización de CI/CD (Integración y Despliegue continuo). Para ello dentro de nuestro repositorio entramos en <strong>Actions</strong> y el botón <strong>New Workflow</strong>.  </li>
+</ol>
+<p><img alt="" src="../images/p54/8.png" /></p>
+<p>Nos creará una carpeta oculta en el que meter los diferentes disparadores, el nuestro será el siguiente:
+<div class="highlight"><pre><span></span><code>name: Publish image to Docker Hub
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+on:
+  push:
+    branches: [ &quot;main&quot; ]
+    # Publish semver tags as releases.
+    tags: [ &#39;v*.*.*&#39; ]
+  workflow_dispatch:
+
+env:
+  # Use docker.io for Docker Hub if empty
+  REGISTRY: docker.io
+  # github.repository as &lt;account&gt;/&lt;repo&gt;
+  #IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: 2048-fabian
+  IMAGE_TAG: latest
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Set up BuildKit Docker container builder to be able to build
+      # multi-platform images and export cache
+      # https://github.com/docker/setup-buildx-action
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226 # v3.0.0
+
+      # Login against a Docker registry except on PR
+      # https://github.com/docker/login-action
+      - name: Log into registry ${{ env.REGISTRY }}
+        uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3.0.0
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.DOCKERHUB_USER }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # This action can be used to check the content of the variables
+      - name: Debug
+        run: |
+          echo &quot;github.repository: ${{ github.repository }}&quot;
+          echo &quot;env.REGISTRY: ${{ env.REGISTRY }}&quot;
+          echo &quot;github.sha: ${{ github.sha }}&quot;
+          echo &quot;env.IMAGE_NAME: ${{ env.IMAGE_NAME }}&quot;
+
+      # Build and push Docker image with Buildx (don&#39;t push on PR)
+      # https://github.com/docker/build-push-action
+      - name: Build and push Docker image
+        id: build-and-push
+        uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09 # v5.0.0
+        with:
+          context: .
+          push: ${{ github.event_name != &#39;pull_request&#39; }}
+          tags: ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_USER }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max     
+</code></pre></div>
+Lo que hará será subir la imagen a <strong>DockerHub</strong> cuando nosotros hagamos un push del repositorio.</p>
+<p>Primero se hace el push.  </p>
+<p><img alt="" src="../images/p54/9.png" />  </p>
+<p>Y a continuación salta el trigger y se sube a <strong>DockerHub</strong></p>
+<p><img alt="" src="../images/p54/10.png" /></p>
 
 
 
@@ -642,10 +785,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
