@@ -7,7 +7,7 @@ theme:
   font:
     text: Open Sans
   language: es
-
+  
   features:
     # Carga instantánea
     - navigation.instant
@@ -21,12 +21,14 @@ theme:
     # Cabecera se esconde al scrollear
     - header.autohide
     - navigation.footer
-  
-  extra:
-    - icon: fontawesome/brands/github
-      link: https://github.com/falclop
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/fabianalcaidelopez1991/
+
+extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/falclop
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/fabianalcaidelopez1991/
+
 
 nav:
   - Inicio: index.md
